@@ -44,6 +44,10 @@ body{
 
 /*Aprendizado*/
 
+#licoes_aprendidas h2{
+    color: blue;
+    padding: 20px 0;
+}
 
 
 #licoes_aprendidas ol{
@@ -57,26 +61,67 @@ body{
     padding: 40px 10px;
 }
 
+.sites-favoritos p{
+    font-size: 18px;
+}
+
+.sites-favoritos span{
+    display: none;
+}
+
+.sites-favoritos a{
+    text-decoration: none;
+}
 
 
+/*Article*/
+
+.artigo{
+    padding: 20px 0;
+}
+
+.artigo h2{
+    color: blue;
+    padding: 10px 0;
+}
+
+.artigo p{
+    line-height: 25px;
+    font-size: 22x;
+    font-weight: 500;
+}
 
 
+/*Aside*/
 
+.lateral h3{
+    color: blue;
+}
 
+.lateral{
+    padding: 20px 0;
+}
 
+.later h2{
+    color: blue;
+    padding: 10px 0;
+}
 
-
-
-
-
-
-
-
+.lateral p{
+    line-height: 25px;
+    font-size: 22x;
+    font-weight: 400;
+}
 
 
 
 
 /*Tabela*/
+
+.tabela h3{
+    padding: 20px 0;
+    color: blue;
+}
 
 .tabela th{
     background-color: blueviolet;    
