@@ -8,6 +8,7 @@
 body{
     background-color: rgb(253, 251, 251);
     padding: 40px 0;
+    height: auto;
 }
 
 .center{
@@ -35,10 +36,11 @@ body{
 /*Apresentação*/
 
 #minha_foto{
-    margin-top: 100px;
-    margin-right: 20%; 
+    margin-top: 230px;
+    margin-right: 15%; 
     border-radius: 50%;
-    float: right;     
+    float: right; 
+    width: 400px;    
 }
 
 
@@ -89,47 +91,44 @@ body{
 
 /*Article*/
 
-.artigo{
+.lado-esquerdo, .lado-direito{
     padding: 20px 0;
 }
 
-.artigo h2{
+.lado-esquerdo h2, .lado-direito h2{
     color: blue;
     padding: 10px 0;
 }
 
-.artigo p{
+.lado-esquerdo p, .lado-direito p{
     line-height: 25px;
     font-size: 22x;
     font-weight: 500;
 }
 
+.lado-esquerdo{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
 
 /*Aside*/
 
-.lateral h3{
-    color: blue;
-}
 
-.lateral{
-    padding: 20px 0;
+.lado-direito{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
 }
-
-.later h2{
-    color: blue;
-    padding: 10px 0;
-}
-
-.lateral p{
-    line-height: 25px;
-    font-size: 22x;
-    font-weight: 400;
-}
-
 
 
 
 /*Tabela*/
+
+.tabela{
+    clear: both;
+}
 
 .tabela h3{
     padding: 20px 0;
@@ -150,8 +149,11 @@ table, th, td {
     color: white;
 }
 
+/*Barra de Progresso*/
+
 .barra_progresso{
     margin-top: 20px;
+    margin-bottom: 50px;
     width: 100%;
     height: 40px;
     background-color: red;
@@ -164,3 +166,24 @@ table, th, td {
     margin-left: 33%;
 }
 
+
+
+#rodape{
+    position: relative;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+    background-color: blue;
+}
+
+#rodape p{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#rodape a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
