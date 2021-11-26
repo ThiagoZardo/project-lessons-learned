@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'fantasy', 'sans-serif';
 }
 
 
@@ -50,9 +50,22 @@ body{
 }
 
 
-#licoes_aprendidas ol{
+#licoes_aprendidas{
     padding: 100px 20px 0;
     margin-left: 2px;
+}
+
+
+/*A Aprender*/
+
+#licoes_a_aprender{
+    padding: 50px 20px 0;
+    margin-left: 2px;
+}
+
+#licoes_a_aprender h2{
+    color: blue;
+    padding: 0;
 }
 
 /*Sites Favoritos*/
@@ -124,7 +137,7 @@ body{
 }
 
 .tabela th{
-    background-color: blueviolet;    
+    background-color: blue;    
 }
 
 .tabela tr{
@@ -134,6 +147,7 @@ body{
 table, th, td {
     border:1px solid black;
     padding: 0 auto;
+    color: white;
 }
 
 .barra_progresso{
